@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+Lua XXTEA Toolkit
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+⚡ Lua XXTEA Toolkit
+</h1>
+
+
+<div class="panel">
+
+
+<label>
+XXTEA KEY
+</label>
+
+<input id="key"
+value="b48e6ef44ed13eee606141750e729cf4">
+
+
+<input 
+type="file"
+id="file"
+accept=".lua,.txt">
+
+
+<button onclick="loadFile()">
+📂 Đọc file
+</button>
+
+
+
+<textarea id="editor"
+placeholder="Nhập Lua hoặc dữ liệu mã hóa ở đây..."></textarea>
+
+
+<div class="buttons">
+
+<button onclick="decryptLua()">
+🔓 Giải mã
+</button>
+
+
+<button onclick="encryptLua()">
+🔐 Mã hóa
+</button>
+
+
+<button onclick="downloadLua()">
+⬇ Xuất file Lua
+</button>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
